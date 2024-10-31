@@ -24,7 +24,11 @@ decade, I am highly effective at asynchronous collaboration.
 
 #### June 2024-Present | Product Site Reliability Engineer | IQVIA (https://www.iqvia.com/)
 
-- Will add soon
+- Oversee the infrastructure for IQVIA’s Orchestrated Analytics(OA) Platform on AWS, which serves 250+ tenants across 70+ EKS clusters for various environments, ensuring reliability and performance for pharmaceutical clients.
+- Develop and refine automation scripts or workflows to eliminate repetitive manual tasks, using tools like Kubernetes, Docker, Helm, GitLab CI/CD, Bash, Python and Terraform. Focus on achieving SRE standards of reliability and efficiency through automation.
+- Maintain SLAs by proactively monitoring system health, troubleshooting incidents, respond promptly to alerts, and collaborating with developers and stakeholders to resolve issues efficiently to minimize downtime.
+- Continuously assess and execute strategies to optimize cloud resource usage and reduce costs. This can involve right-sizing instances, consolidating workloads, or leading platform migration initiatives.
+- Document procedures, incidents, and automation scripts, ensuring all processes follow compliance and organizational standards.
 
 #### June 2022-June 2024 | DevOps Engineer | PwC (https://www.pwc.com/)
 
