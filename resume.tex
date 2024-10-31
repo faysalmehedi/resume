@@ -1,0 +1,299 @@
+%-------------------------
+% Resume in Latex
+% Author : Faysal Mehedi
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Faysal Mehedi} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:+8801716734045}{+880 1716734045}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:faysalmehedi@outlook.com}{faysalmehedi@outlook.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/faysalmehedi}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/faysalmehedi}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} {Dhaka, Bangladesh}
+\end{center}
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {IQVIA}{Dhaka, Bangladesh}
+      {Product Site Reliability Engineer}{June 2024 \textbf{--} Present, Full-time}
+        \resumeItemListStart
+            \resumeItem{Oversee the infrastructure for IQVIA’s Orchestrated Analytics(OA) Platform on AWS, which serves 250+ tenants across 70+ EKS clusters for various environments, ensuring reliability and performance for pharmaceutical clients.}
+            \resumeItem{Develop and refine automation scripts or workflows to eliminate repetitive manual tasks, using tools like Kubernetes, Docker, Helm, GitLab CI/CD, Bash, Python and Terraform. Focus on achieving SRE standards of reliability and efficiency through automation.}
+            \resumeItem{Maintain SLAs by proactively monitoring system health, troubleshooting incidents, respond promptly to alerts, and collaborating with developers and stakeholders to resolve issues efficiently to minimize downtime.}
+            \resumeItem{Continuously assess and execute strategies to optimize cloud resource usage and reduce costs. This can involve right-sizing instances, consolidating workloads, or leading platform migration initiatives.}
+            \resumeItem{Document procedures, incidents, and automation scripts, ensuring all processes follow compliance and organizational standards.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {PricewaterhouseCoopers (PwC)}{Dhaka, Bangladesh}
+      {DevOps and Cloud Engineer}{June 2022 \textbf{--} June 2024, Full-time}
+        \resumeItemListStart
+            \resumeItem{Provide Cloud technical expertise including strategic design and architectural mentorship, assessments, POCs, etc., in support of the overall sales lifecycle and consulting engagement.}
+            \resumeItem{Evaluating current cloud environments and proposing additional technologies and solutions to gain more benefits of cloud technologies and utilizing further Cloud resources.}
+            \resumeItem{Design, build, and manage scalable cloud infrastructure (Primarily Azure, AWS, and OCI) for multiple environments.}
+            \resumeItem{Design and implement the infrastructure and operating environment for container-based microservices(e.g. Docker, Kubernetes) that meet the agreed high availability, performance, and security requirements.}
+            \resumeItem{Design and implementation of various tools (e.g. Azure DevOps, GithubActions, etc.) with the DevOps/DataOps pipeline automation to enable Continuous Integration (CI) and Continuous Deployment (CD).}
+            \resumeItem{Architect, build and implement Infrastructure as Code (e.g. Terraform)scripts for version-controlled infrastructure provisioning and managing.}
+            \resumeItem{Root cause analysis and troubleshooting to mitigate disruption of services and improve the day-to-day operations with accuracy or performance.}
+            \resumeItem{Identify areas of improvement within systems and perform enhancements to reduce the impact of errors and automate repetitive tasks.}         
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Unique Infoway Limited}{Dhaka, Bangladesh}
+      {Senior System Engineer}{Dec 2015 \textbf{--} May 2022, Full-time}
+        \resumeItemListStart
+            \resumeItem{Designed, deployed, and managed IT infrastructure components, including servers, networks etc.}
+            \resumeItem{Conducted troubleshooting, resolved technical issues, and ensured system reliability.}
+            \resumeItem{Collaborated with teams to plan and execute technology upgrades, optimizing performance and security.}
+            \resumeItem{Monitored and maintained network performance, promptly resolving incidents and ensuring seamless operations.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+%----------- SKILLS -----------
+
+\section{Key Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Disciplines:}{ Agile, DevOps, Infrastructure Engineering, Site Reliability Engineering} \\ \vspace{3pt}
+        \textbf{Languages:}{ Bash/Shell, Python, YAML} \\ \vspace{3pt}
+        \textbf{Cloud Platforms:}{ Amazon Web Services, Azure, Oracle Cloud Infrastructure} \\ \vspace{3pt}
+        \textbf{Containers and Orchestration:}{ Docker, Kubernetes/EKS/AKS } \\ \vspace{3pt}
+        \textbf{Infrastructure as Code:}{ Terraform, Packer, Kustomize, Helm} \\ \vspace{3pt}
+        \textbf{CI/CD:}{ Gitlab, GitHub Actions, Azure DevOps} \\ \vspace{3pt}
+        \textbf{Data:}{ PostgresSQL, MySQL, Redis, Aurora/RDS, Snowflake} \\ \vspace{3pt}   
+        \textbf{Observability:}{ Prometheus, Grafana, CloudWatch, Alertmanager, Bigpanda} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- PROJECTS -----------
+
+% \section{Projects}
+%     \vspace{3pt}
+%     \resumeSubHeadingListStart
+      
+%       \resumeProjectHeading
+%         {\textbf{Bangla translation of "What happens when" repository} $|$ \emph{\href{https://github.com/faysalmehedi/what-happens-when_BN}{\color{blue}GitHub}}}{}
+%           \resumeItemListStart
+%             \resumeItem{Bangla Translation of this repository is an attempt to answer the age-old interview question "What happens when you type google.com into your browser's address box and press enter?"}
+%           \resumeItemListEnd
+           
+%       \resumeProjectHeading
+%         {\textbf{POC on overlay communication using Vxlan OVS Docker} $|$ \emph{\href{https://github.com/faysalmehedi/vxlan-ovs-docker-lab}{\color{blue}GitHub}}}{}
+%           \resumeItemListStart
+%             \resumeItem{This hands-on POC is an overview of container/pod communication between multi-node or multi-container daemon under the hood using Open vSwitch, docker and VXLAN technology.}
+%           \resumeItemListEnd
+      
+%     \resumeSubHeadingListEnd
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Primeasia University}{Dhaka, Bangladesh}
+      {B.Sc. in Electrical and Electronics Engineering;   \textbf{GPA: 3.53/4.00}}{Sep 2014}
+    
+  \resumeSubHeadingListEnd
+
+%----------- RELEVANT COURSEWORK -----------
+
+% \section{Relevant Coursework}
+  % \vspace{2pt}
+  % \resumeSubHeadingListStart
+    % \small{\item{
+        % \textbf{Major coursework:}{ Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering, Pattern Recognition, Introduction to Digital Signal Processing, Introduction to Digital Communications, Introduction to Database Systems, Introduction to Image Processing, Machine Vision} \\ \vspace{3pt}
+        
+        % \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Fundamentals of Software Engineering}
+    % }}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- CERTIFICATES -----------
+
+\section{Certificates}
+  \resumeSubHeadingListStart
+    
+    \resumeOrganizationHeading
+      {AZ-104: Microsoft Azure Administrator}{Expires on: September, 2025}  
+      {}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- ORGANIZATIONS -----------
+
+% \section{Organizations}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Basketball, Swimming, Fitness, Eight-ball, Horology}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \vspace{2pt}
+  % \resumeSubHeadingListStart
+    % \item{References available upon request.}
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
