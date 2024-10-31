@@ -2,7 +2,7 @@
 
 Dhaka, Bangladesh area with preference for remote work.
 
-faysalmehedi@outlook.com | https://www.linkedin.com/in/faysalmehedi/ | https://github.com/faysalmehedi/
+faysalmehedi@outlook.com | [LinkedIn](https://www.linkedin.com/in/faysalmehedi/) | [GitHub](https://github.com/faysalmehedi/)
 
 ### Objective
 
@@ -63,11 +63,11 @@ decade, I am highly effective at asynchronous collaboration.
 
 ### Certification
 
-- AZ-104: Microsoft Azure Administrator | (https://learn.microsoft.com/en-us/users/faysalmehedi/credentials/4accf17baba2c71a)
+- AZ-104: Microsoft Azure Administrator | Expires on: September, 2025 | [Credentials](https://learn.microsoft.com/en-us/users/faysalmehedi/credentials/4accf17baba2c71a)
 
 ### Recent Training
 
-- DevOps with Docker | University of Helsinki (MOOC) | (https://studies.cs.helsinki.fi/stats/api/certificate/docker2021/en/769be2597f33793a3ad39cd4a2a76329)
+- DevOps with Docker | University of Helsinki (MOOC) | [Credentials](https://studies.cs.helsinki.fi/stats/api/certificate/docker2021/en/769be2597f33793a3ad39cd4a2a76329)
 - DevOps with Kubernetes | University of Helsinki (MOOC)
 - Learning Terraform | LinkedIn
 - Developing CI/CD Solutions with Azure DevOps | LinkedIn
