@@ -20,11 +20,11 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: resume.tex
+          root_file: faysal_mehedi_resume.tex
       - name: Add and commit to main
         run: | 
           git config --global user.name 'Latex Workflow Bot'
           git config --global user.email 'bot@faysalmehedi.github.io'
-          git add resume.pdf
+          git add faysal_mehedi_resume.pdf
           git commit -m "[Bot] Update PDF"
           git push
