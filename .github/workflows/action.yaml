@@ -1,4 +1,4 @@
-name: Compile and comit LaTeX document
+name: Compile and commit LaTeX document
 on:
   push:
     branches:
