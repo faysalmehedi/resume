@@ -1,3 +1,30 @@
-name: LaTex_CV_Maker
+name: Compile and comit LaTeX document
 on:
+  push:
+    branches:
+      - 'main_v2'
+    paths-ignore:
+      - '**.pdf'
   workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compile_latex_and_commit:
+    name: Compile latex to pdf and commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+      - name: Add and commit to main
+        run: | 
+          git config --global user.name 'Latex Workflow Bot'
+          git config --global user.email 'bot@faysalmehedi.github.io'
+          git add main.pdf
+          git commit -m "[Bot] Update PDF"
+          git push
