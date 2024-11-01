@@ -2,7 +2,7 @@
 
 Dhaka, Bangladesh area with preference for remote work.
 
-faysalmehedi@outlook.com | [LinkedIn](https://www.linkedin.com/in/faysalmehedi/) | [GitHub](https://github.com/faysalmehedi/)
+faysalmehedi@outlook.com | [Resume](https://github.com/faysalmehedi/resume/blob/main/faysal_mehedi_resume.pdf) | [LinkedIn](https://www.linkedin.com/in/faysalmehedi/) | [GitHub](https://github.com/faysalmehedi/)
 
 ### Objective
 
