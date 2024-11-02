@@ -6,19 +6,13 @@ Dhaka, Bangladesh area with preference for remote work.
 
 ### Objective
 
-Seeking a role as a Senior or Staff Engineer where I can apply years of
-experience building and scaling mission critical infrastructure and cloud
-native services to accelerate innovation and deliver value for the business.
+Seeking a role as a Senior or Staff Engineer where I can apply years of experience building and scaling mission critical infrastructure and cloud native services to accelerate innovation and deliver value for the business.
 
 ### About Me
 
-I believe DevOps culture and SRE principles enable rallying around shared
-outcomes; increasing productivity while simultaneously improving quality
-of life. I am well-versed in Agile, Lean Product, GitOps and Infrastructure as Code.
+I believe DevOps culture and SRE principles enable rallying around shared outcomes; increasing productivity while simultaneously improving quality of life. I am well-versed in Agile, Lean Product, GitOps and Infrastructure as Code.
 
-Humble, collaborative, and continuously learning; I am pragmatic in my
-work style and technology choices. Having worked fully remote for over a
-decade, I am highly effective at asynchronous collaboration.
+Humble, collaborative, and continuously learning; I am pragmatic in my work style and technology choices. Having worked fully remote for over a decade, I am highly effective at asynchronous collaboration.
 
 ### Experience
 
@@ -43,11 +37,14 @@ decade, I am highly effective at asynchronous collaboration.
 
 #### December 2019-May 2022 | Sr. Systems Engineer | Unique Infoway Ltd.
 
-- Designed, deployed, and managed IT infrastructure components, including servers, networks etc. Conducted troubleshooting, resolved technical issues, and ensured system reliability. Collaborated with teams to plan and execute technology upgrades, optimizing performance and security.
+- Designed, deployed, and managed IT infrastructure components, including servers, networks etc. 
+- Conducted troubleshooting, resolved technical issues, and ensured system reliability. 
+- Collaborated with teams to plan and execute technology upgrades, optimizing performance and security.
 
 #### December 2015-December 2019 | Network Operations Center Engineer | Unique Infoway Ltd.
 
-- Monitored and maintained network performance, promptly resolving incidents and ensuring seamless operations. Collaborated with cross-functional teams and implemented security measures
+- Monitored and maintained network performance, promptly resolving incidents and ensuring seamless operations. 
+- Collaborated with cross-functional teams and implemented security measures
 
 
 ### Key Skills
