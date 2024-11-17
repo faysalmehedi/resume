@@ -2,7 +2,7 @@
 
 Dhaka, Bangladesh area with preference for remote work.
 
-[faysalmehedi@outlook.com](mailto:faysalmehedi@outlook.com) ~ [Resume](https://github.com/faysalmehedi/resume/blob/main/faysal_mehedi_resume.pdf) ~ [LinkedIn](https://www.linkedin.com/in/faysalmehedi/) ~ [GitHub](https://github.com/faysalmehedi/)
+[faysalmehedi@outlook.com](mailto:faysalmehedi@outlook.com) ~ [Resume](https://github.com/faysalmehedi/resume/blob/main/faysal_mehedi_resume.pdf) ~ [LinkedIn](https://www.linkedin.com/in/faysalmehedi/) ~ [GitHub](https://github.com/faysalmehedi/) ~ [Notion Resume](https://faysalmehedi.notion.site/Faysal-Mehedi-1330907b39c080528d95f71c593a3abd?pvs=4)
 
 ### Objective
 
@@ -16,35 +16,35 @@ Humble, collaborative, and continuously learning; I am pragmatic in my work styl
 
 ### Experience
 
-#### June 2024-Present | Product Site Reliability Engineer | IQVIA (https://www.iqvia.com/)
+#### June 2024-Present | Product Site Reliability Engineer | IQVIA (www.iqvia.com)
 
-- Oversee the infrastructure for IQVIA’s Orchestrated Analytics(OA) Platform on AWS, which serves 250+ tenants across 70+ EKS clusters for various environments, ensuring reliability and performance for pharmaceutical clients.
-- Develop and refine automation scripts or workflows to eliminate repetitive manual tasks, using tools like Kubernetes, Docker, Helm, GitLab CI/CD, Bash, Python and Terraform. Focus on achieving SRE standards of reliability and efficiency through automation.
-- Maintain SLAs by proactively monitoring system health, troubleshooting incidents, respond promptly to alerts, and collaborating with developers and stakeholders to resolve issues efficiently to minimize downtime.
-- Continuously assess and execute strategies to optimize cloud resource usage and reduce costs. This can involve right-sizing instances, consolidating workloads, or leading platform migration initiatives.
-- Document procedures, incidents, and automation scripts, ensuring all processes follow compliance and organizational standards.
+- Oversee IQVIA's Orchestrated Analytics (OA) Platform infrastructure on AWS, serving over 250 tenants across 70+ EKS clusters in various environments, ensuring reliability and performance for the pharmaceutical and life sciences industry.
+- Develop and refine automation scripts and workflows to eliminate repetitive tasks, utilizing Kubernetes, Docker, Helm, GitLab CI/CD, Bash, Python, and Terraform. Emphasize achieving SRE standards of reliability and efficiency through automation.
+- Maintain SLAs by proactively monitoring system health, troubleshooting incidents, swiftly responding to alerts, and collaborating with developers and stakeholders to resolve issues and minimize downtime efficiently.
+- Continuously assess and implement strategies to optimize cloud resource usage and reduce costs, including right-sizing instances, consolidating workloads, and spearheading platform migration initiatives.
+- Document procedures, incidents, and automation scripts, ensuring all processes adhere to compliance and organizational standards.
 
-#### June 2022-June 2024 | Senior Consultant (Infrastructure & DevOps) | PwC (https://www.pwc.com/)
+#### June 2022-June 2024 | Senior Consultant (Infrastructure & DevOps) | PwC (www.pwc.com)
 
-- Provide Cloud technical expertise including strategic design andarchitectural mentorship, assessments, POCs, etc., in support of theoverall sales lifecycle and consulting engagement.
-- Evaluating current cloud environments and proposing additionaltechnologies and solutions to gain more benefits of cloud technologiesand utilizing further Cloud resources.
-- Design, build, and manage scalable cloud infrastructure (PrimarilyAzure, AWS, and OCI) for multiple environments.
-- Design and implement the infrastructure and operating environmentfor container-based microservices(e.g. Docker, Kubernetes) that meetthe agreed high availability, performance, and security requirements.
-- Design and implementation of various tools (e.g. Azure DevOps, GithubActions, etc.) with the DevOps/DataOps pipeline automation to enableContinuous Integration (CI) and Continuous Deployment (CD).
-- Architect, build and implement Infrastructure as Code (e.g. Terraform)scripts for version-controlled infrastructure provisioning andmanaging.
-- Root cause analysis and troubleshooting to mitigate disruption ofservices and improve the day-to-day operations with accuracy orperformance.
-- Identify areas of improvement within systems and performenhancements to reduce the impact of errors and automate repetitivetasks.
+- Provide cloud technical expertise, including strategic design and architectural mentorship, assessments, and proofs of concept, to support the overall sales lifecycle and consulting engagements.
+- Evaluate current cloud environments and propose additional technologies and solutions to maximize cloud benefits and resource utilization.
+- Design, build, and manage scalable cloud infrastructure (primarily Azure, AWS, and OCI) for multiple environments.
+- Design and implement infrastructure and operating environments for container-based microservices (e.g., Docker, Kubernetes) that meet agreed-upon high availability, performance, and security requirements.
+- Design and implement various tools (e.g., Azure DevOps, GitHub Actions) with DevOps/DataOps pipeline automation to enable Continuous Integration (CI) and Continuous Deployment (CD).
+- Architect, build, and implement Infrastructure as Code (e.g., Terraform) scripts for version-controlled infrastructure provisioning and management.
+- Perform root cause analysis and troubleshooting to mitigate service disruptions and improve day-to-day operations' accuracy and performance.
+- Identify areas for system improvement and implement enhancements to reduce error impact and automate repetitive tasks.
 
 #### December 2019-May 2022 | Senior Systems Engineer | Unique Infoway Ltd.
 
-- Designed, deployed, and managed IT infrastructure components, including servers, networks etc. 
-- Conducted troubleshooting, resolved technical issues, and ensured system reliability. 
-- Collaborated with teams to plan and execute technology upgrades, optimizing performance and security.
+- Designed, deployed, and managed IT infrastructure components, including servers and networks.
+- Conducted troubleshooting, resolved technical issues, and ensured system reliability and uptime.
+- Collaborated with cross-functional teams to plan and execute technology upgrades, optimizing both performance and security.
 
 #### December 2015-December 2019 | Network Operations Center Engineer | Unique Infoway Ltd.
 
-- Monitored and maintained network performance, promptly resolving incidents and ensuring seamless operations. 
-- Collaborated with cross-functional teams and implemented security measures
+- Monitored and maintained network performance, promptly resolving incidents and ensuring uninterrupted operations.
+- Collaborated with cross-functional teams to implement robust security measures
 
 
 ### Key Skills
