@@ -24,7 +24,7 @@ Humble, collaborative, and continuously learning; I am pragmatic in my work styl
 - Continuously assess and execute strategies to optimize cloud resource usage and reduce costs. This can involve right-sizing instances, consolidating workloads, or leading platform migration initiatives.
 - Document procedures, incidents, and automation scripts, ensuring all processes follow compliance and organizational standards.
 
-#### June 2022-June 2024 | DevOps Engineer | PwC (https://www.pwc.com/)
+#### June 2022-June 2024 | Senior Consultant (Infrastructure & DevOps) | PwC (https://www.pwc.com/)
 
 - Provide Cloud technical expertise including strategic design andarchitectural mentorship, assessments, POCs, etc., in support of theoverall sales lifecycle and consulting engagement.
 - Evaluating current cloud environments and proposing additionaltechnologies and solutions to gain more benefits of cloud technologiesand utilizing further Cloud resources.
@@ -35,7 +35,7 @@ Humble, collaborative, and continuously learning; I am pragmatic in my work styl
 - Root cause analysis and troubleshooting to mitigate disruption ofservices and improve the day-to-day operations with accuracy orperformance.
 - Identify areas of improvement within systems and performenhancements to reduce the impact of errors and automate repetitivetasks.
 
-#### December 2019-May 2022 | Sr. Systems Engineer | Unique Infoway Ltd.
+#### December 2019-May 2022 | Senior Systems Engineer | Unique Infoway Ltd.
 
 - Designed, deployed, and managed IT infrastructure components, including servers, networks etc. 
 - Conducted troubleshooting, resolved technical issues, and ensured system reliability. 
