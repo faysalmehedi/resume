@@ -16,7 +16,7 @@ Humble, collaborative, and continuously learning; I am pragmatic in my work styl
 
 ### Experience
 
-#### June 2024-Present | Product Site Reliability Engineer | IQVIA (www.iqvia.com)
+#### June 2024-Present | Lead Site Reliability Engineer | IQVIA (www.iqvia.com)
 
 - Oversee IQVIA's Orchestrated Analytics (OA) Platform infrastructure on AWS, serving over 250 tenants across 70+ EKS clusters in various environments, ensuring reliability and performance for the pharmaceutical and life sciences industry.
 - Develop and refine automation scripts and workflows to eliminate repetitive tasks, utilizing Kubernetes, Docker, Helm, GitLab CI/CD, Bash, Python, and Terraform. Emphasize achieving SRE standards of reliability and efficiency through automation.
