@@ -1,73 +1,77 @@
 # Faysal Mehedi
 
-Dhaka, Bangladesh area with preference for remote work.
+*Senior Cloud & Platform Engineer — AWS · Kubernetes · Terraform · GitLab CI/CD · Observability*
 
-[faysalmehedi@outlook.com](mailto:faysalmehedi@outlook.com) ~ [Resume](https://github.com/faysalmehedi/resume/blob/main/faysal_mehedi_resume.pdf) ~ [LinkedIn](https://www.linkedin.com/in/faysalmehedi/) ~ [GitHub](https://github.com/faysalmehedi/) ~ [Notion Resume](https://faysalmehedi.notion.site/Faysal-Mehedi-1330907b39c080528d95f71c593a3abd?pvs=4)
+**Dhaka, Bangladesh** · Open to remote · +880 1716734045
 
-### Objective
+[faysalmehedi@outlook.com](mailto:faysalmehedi@outlook.com) · [LinkedIn](https://www.linkedin.com/in/faysalmehedi/) · [GitHub](https://github.com/faysalmehedi/) · [PDF resume](https://github.com/faysalmehedi/resume/blob/main/faysal_mehedi_resume.pdf) · [Notion](https://faysalmehedi.notion.site/Faysal-Mehedi-1330907b39c080528d95f71c593a3abd?pvs=4)
 
-Seeking a role as a Senior or Staff Engineer where I can apply years of experience building and scaling mission critical infrastructure and cloud native services to accelerate innovation and deliver value for the business.
+---
 
-### About Me
+## Summary
 
-I believe DevOps culture and SRE principles enable rallying around shared outcomes; increasing productivity while simultaneously improving quality of life. I am well-versed in Agile, Lean Product, GitOps and Infrastructure as Code.
+Site Reliability / cloud infrastructure engineer with **10+ years** in production operations, consulting, and **multi-tenant AWS at scale** (**70+ EKS clusters**, **250+ tenants**). Strong in **Terraform**, **Kubernetes (EKS)**, **GitLab CI/CD**, **Python/Bash** automation, and **observability** (Prometheus, Grafana, CloudWatch). Comfortable owning **end-to-end AWS platform domains** (VPC, identity, data paths, containers), partnering with engineering and security, documenting decisions for the next operator, and reducing toil through **IaC and repeatable pipelines** (patterns map cleanly to **Harness**-style verification gates and rollback).
 
-Humble, collaborative, and continuously learning; I am pragmatic in my work style and technology choices. Having worked fully remote for over a decade, I am highly effective at asynchronous collaboration.
+---
 
-### Experience
+## Experience
 
-#### June 2024-Present | Lead Site Reliability Engineer | IQVIA (www.iqvia.com)
+### IQVIA — Product Site Reliability Engineer | June 2024 – Present | Dhaka, Bangladesh (remote)
 
-- Oversee IQVIA's Orchestrated Analytics (OA) Platform infrastructure on AWS, serving over 250 tenants across 70+ EKS clusters in various environments, ensuring reliability and performance for the pharmaceutical and life sciences industry.
-- Develop and refine automation scripts and workflows to eliminate repetitive tasks, utilizing Kubernetes, Docker, Helm, GitLab CI/CD, Bash, Python, and Terraform. Emphasize achieving SRE standards of reliability and efficiency through automation.
-- Maintain SLAs by proactively monitoring system health, troubleshooting incidents, swiftly responding to alerts, and collaborating with developers and stakeholders to resolve issues and minimize downtime efficiently.
-- Continuously assess and implement strategies to optimize cloud resource usage and reduce costs, including right-sizing instances, consolidating workloads, and spearheading platform migration initiatives.
-- Document procedures, incidents, and automation scripts, ensuring all processes adhere to compliance and organizational standards.
+- Own **Orchestrated Analytics (OA)** platform infrastructure on **AWS**: **250+ tenants** across **70+ Amazon EKS clusters** across environments; reliability and performance for regulated life-sciences workloads.
+- Drive **Infrastructure as Code** and automation with **Terraform**, **Helm**, **Kubernetes**, **Docker**, **GitLab CI/CD**, **Python**, and **Bash**—repeatable changes, peer review, and operational runbooks aligned with **compliance and organizational standards**.
+- Operate AWS foundations that underpin the platform (**VPC networking**, **IAM** and access patterns, **load balancing/DNS**, **security groups**, encrypted data paths and integrations with managed data services such as **Amazon RDS/Aurora** and **S3** where applicable to the OA stack).
+- **On-call and incident leadership**: proactive monitoring (**Prometheus**, **Grafana**, **CloudWatch**, **Alertmanager**, **BigPanda**), rapid triage, cross-team coordination with developers and stakeholders, and post-incident follow-up to reduce recurrence.
+- **Reliability engineering**: shift from noisy alerts toward **actionable, customer-impacting signals**; support or define **SLO-oriented** monitoring where the product defines SLIs (complementing agreed SLAs where required).
+- **AI/ML platform**: provisioned and operate the agentic infrastructure on AWS — **Amazon Bedrock** models, **Knowledge Bases** (RAG), and the runtime environment hosting AI agents and **MCP servers**; self-hosted **LangSmith** for end-to-end agent tracing and observability.
+- **Cost and capacity**: right-sizing, workload consolidation, and **migration** initiatives to optimize cloud spend without compromising availability.
+- **Documentation**: procedures, incidents, and automation—written for **handoff**, auditability, and **developer-friendly** operational guidance.
 
-#### June 2022-June 2024 | Senior Consultant (Infrastructure & DevOps) | PwC (www.pwc.com)
+### PwC — Senior Consultant (Infrastructure & DevOps) | June 2022 – June 2024 | Dhaka, Bangladesh
 
-- Provide cloud technical expertise, including strategic design and architectural mentorship, assessments, and proofs of concept, to support the overall sales lifecycle and consulting engagements.
-- Evaluate current cloud environments and propose additional technologies and solutions to maximize cloud benefits and resource utilization.
-- Design, build, and manage scalable cloud infrastructure (primarily Azure, AWS, and OCI) for multiple environments.
-- Design and implement infrastructure and operating environments for container-based microservices (e.g., Docker, Kubernetes) that meet agreed-upon high availability, performance, and security requirements.
-- Design and implement various tools (e.g., Azure DevOps, GitHub Actions) with DevOps/DataOps pipeline automation to enable Continuous Integration (CI) and Continuous Deployment (CD).
-- Architect, build, and implement Infrastructure as Code (e.g., Terraform) scripts for version-controlled infrastructure provisioning and management.
-- Perform root cause analysis and troubleshooting to mitigate service disruptions and improve day-to-day operations' accuracy and performance.
-- Identify areas for system improvement and implement enhancements to reduce error impact and automate repetitive tasks.
+- Delivered **cloud infrastructure** and **DevOps** consulting: assessments, **architecture** guidance, and proofs of concept across the engagement lifecycle.
+- **Designed, built, and operated** scalable environments on **AWS**, **Azure**, and **OCI**—multi-cloud experience with **Terraform** IaC, **high availability**, performance, and security requirements.
+- **Container platforms**: **Docker** and **Kubernetes** (including **AKS**-class delivery); CI/CD with **Azure DevOps**, **GitHub Actions**, and pipeline automation for **CI/CD** and DataOps-style workflows.
+- **Operations**: root cause analysis, incident mitigation, and continuous improvement to reduce error impact and **automate repetitive work**.
 
-#### December 2019-May 2022 | Senior Systems Engineer | Unique Infoway Ltd.
+### Unique Infoway Ltd. — Dhaka, Bangladesh
 
-- Designed, deployed, and managed IT infrastructure components, including servers and networks.
-- Conducted troubleshooting, resolved technical issues, and ensured system reliability and uptime.
-- Collaborated with cross-functional teams to plan and execute technology upgrades, optimizing both performance and security.
+**Senior System Engineer** | Dec 2019 – May 2022  
 
-#### December 2015-December 2019 | Network Operations Center Engineer | Unique Infoway Ltd.
+**Network Operations Center Engineer** | Dec 2015 – Dec 2019  
 
-- Monitored and maintained network performance, promptly resolving incidents and ensuring uninterrupted operations.
-- Collaborated with cross-functional teams to implement robust security measures
+- Built and ran **on-premises** infrastructure and **network operations**: deployment, monitoring, incident response, upgrades, and **security-hardening** collaboration—foundation for later cloud-scale production discipline.
 
+---
 
-### Key Skills
+## Education
 
-- Disciplines: Agile, DevOps, Infrastructure Engineering, Site Reliability Engineering
-- Languages: Bash/Shell, Python, YAML
-- Cloud Platforms: Amazon Web Services, Azure, Oracle Cloud Infrastructure
-- Containers and Orchestration: Docker, Kubernetes/EKS/AKS
-- Infrastructure as Code: Terraform, Packer, Kustomize, Helm
-- CI/CD: Gitlab, GitHub Actions, Azure DevOps
-- Data: PostgresSQL, MySQL, Redis, Aurora/RDS, Snowflake
-- Observability: Prometheus, Grafana, CloudWatch, Alertmanager, Bigpanda
+**B.Sc., Electrical and Electronics Engineering** — Primeasia University, Dhaka, Bangladesh (Sep 2014)
 
-### Certification
+---
 
-- AZ-104: Microsoft Azure Administrator - Expires on: September, 2025 - [Credentials](https://learn.microsoft.com/en-us/users/faysalmehedi/credentials/4accf17baba2c71a)
+## Key skills (Cloud Platforms–aligned)
 
-### Recent Training
+| Area | Details |
+|------|--------|
+| **Cloud** | **AWS** (primary), Azure, OCI |
+| **AWS domains** | EKS, VPC, IAM, ELB, Route 53, RDS/Aurora, S3, CloudWatch, Bedrock, Lambda |
+| **AI/ML & Agents** | Amazon Bedrock (models, Knowledge Bases, RAG), MCP servers, LangSmith (self-hosted) |
+| **Containers** | Docker, **Kubernetes (EKS, AKS)**, Helm, Kustomize, OpenShift (exposure) |
+| **IaC** | **Terraform**, Packer; module-oriented delivery and PR-based workflow |
+| **CI/CD** | **GitLab CI/CD**, GitHub Actions, Azure DevOps, AWS CodeBuild; deployment safety (rollback, gates)—**Harness**-equivalent patterns in active learning |
+| **Languages** | Python, Bash, YAML |
+| **Data** | PostgreSQL, MySQL, Redis, **Amazon Aurora/RDS**, Snowflake |
+| **Observability** | Prometheus, Grafana, CloudWatch, Alertmanager, BigPanda |
+| **Practices** | Agile, DevOps, SRE, GitOps, incident management, cost optimization, compliance-aware operations |
 
-- DevOps with Docker - University of Helsinki (MOOC) - [Credentials](https://studies.cs.helsinki.fi/stats/api/certificate/docker2021/en/769be2597f33793a3ad39cd4a2a76329)
-- DevOps with Kubernetes - University of Helsinki (MOOC)
-- Learning Terraform - LinkedIn
-- Developing CI/CD Solutions with Azure DevOps - LinkedIn
-- DevOps for Databases in Azure with MySQL and Terraform - LinkedIn
-- Azure Kubernetes Service (AKS): Deploying Microservices - LinkedIn
-- Docker Essential Training - LinkedIn
+---
+
+## Certifications & training
+
+- **AZ-104**: Microsoft Azure Administrator — [Credentials](https://learn.microsoft.com/en-us/users/faysalmehedi/credentials/4accf17baba2c71a)
+- DevOps with Docker — University of Helsinki (MOOC) — [Certificate](https://studies.cs.helsinki.fi/stats/api/certificate/docker2021/en/769be2597f33793a3ad39cd4a2a76329)
+- DevOps with Kubernetes — University of Helsinki (MOOC)
+- LinkedIn Learning: Terraform, Azure DevOps CI/CD, databases with Terraform, AKS microservices, Docker essentials
+
+---
