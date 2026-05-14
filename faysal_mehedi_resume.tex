@@ -1,7 +1,9 @@
 %-------------------------
-% Resume in Latex
-% Author : Faysal Mehedi
-%------------------------
+% Resume in LaTeX — Senior Engineer, Cloud Platforms (tailored variant)
+% Author: Faysal Mehedi
+% Compile: pdflatex resume-senior-cloud-platforms.tex
+% Based on: resume.tex (same class, fonts, macros)
+%-------------------------
 
 \documentclass[letterpaper,10.5pt]{article}
 
@@ -20,26 +22,14 @@
 \usepackage{fontawesome}
 \input{glyphtounicode}
 
-
-%---------- FONT OPTIONS ----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
 \usepackage[default]{sourcesanspro}
 
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
@@ -52,23 +42,17 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-6pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-% Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
-
-%-------------------------
-% Custom commands
 
 \newcommand{\resumeItem}[1]{
   \item\small{
     {#1 \vspace{-2pt}}
   }
 }
-
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
@@ -87,32 +71,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubSubheading}[2]{
-    \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-
-\newcommand{\resumeEducationHeading}[6]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-      \textit{\small#5} & \textit{\small #6} \\
-    \end{tabular*}\vspace{-5pt}
-}
-
-
-\newcommand{\resumeProjectHeading}[2]{
-    \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-
 \newcommand{\resumeOrganizationHeading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -130,13 +88,7 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
-
-%---------- HEADING ----------
 
 \begin{center}
     \textbf{\Huge \scshape Faysal Mehedi} \\ \vspace{3pt}
@@ -149,11 +101,21 @@
     $|$
     \faGithub \hspace{.5pt} \href{https://github.com/faysalmehedi}{GitHub}
     $|$
-    \faMapMarker \hspace{.5pt} {Dhaka, Bangladesh}
+    \faMapMarker \hspace{.5pt} {Dhaka, Bangladesh (remote/hybrid)}
 \end{center}
 
-%----------- EXPERIENCE -----------
+\vspace{-8pt}
 
+%----------- SUMMARY -----------
+\section{Summary}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        {Site reliability and cloud infrastructure engineer with experience in production operations, consulting, and multi-tenant \textbf{AWS} at scale (\textbf{70+ Amazon EKS clusters}, \textbf{250+ tenants}). Strong in \textbf{Terraform}, \textbf{Kubernetes (EKS)}, \textbf{GitLab CI/CD}, \textbf{Python/Bash}, and observability (\textbf{Prometheus}, \textbf{Grafana}, \textbf{Synthetic Monitoring}, \textbf{CloudWatch}). Owns end-to-end platform domains (\textbf{VPC}, identity, data paths, containers), partners with engineering and security, documents for handoff, and reduces toil through IaC and repeatable pipelines.}
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- EXPERIENCE -----------
 \section{Experience}
   \vspace{3pt}
   \resumeSubHeadingListStart
@@ -162,25 +124,24 @@
       {IQVIA}{Dhaka, Bangladesh}
       {Product Site Reliability Engineer}{June 2024 \textbf{--} Present, Full-time}
         \resumeItemListStart
-            \resumeItem{Oversee IQVIA's Orchestrated Analytics (OA) Platform infrastructure on AWS, serving over 250 tenants across 70+ EKS clusters in various environments, ensuring reliability and performance for the pharmaceutical and life sciences industry.}
-            \resumeItem{Develop and refine automation scripts and workflows to eliminate repetitive tasks, utilizing Kubernetes, Docker, Helm, GitLab CI/CD, Bash, Python, and Terraform. Emphasize achieving SRE standards of reliability and efficiency through automation.}
-            \resumeItem{Maintain SLAs by proactively monitoring system health, troubleshooting incidents, swiftly responding to alerts, and collaborating with developers and stakeholders to resolve issues and minimize downtime efficiently.}
-            \resumeItem{Continuously assess and implement strategies to optimize cloud resource usage and reduce costs, including right-sizing instances, consolidating workloads, and spearheading platform migration initiatives.}
-            \resumeItem{Document procedures, incidents, and automation scripts, ensuring all processes adhere to compliance and organizational standards.}
+            \resumeItem{Own \textbf{Orchestrated Analytics (OA)} platform (SaaS & Agentic) infrastructure on \textbf{AWS}: 250+ tenants across 70+ \textbf{Amazon EKS} clusters across environments; reliability and performance for regulated life-sciences workloads.}
+            \resumeItem{Drive \textbf{Infrastructure as Code} and automation with \textbf{Terraform}, \textbf{Helm}, \textbf{Kubernetes}, \textbf{Docker}, \textbf{GitLab CI/CD}, \textbf{Python}, and \textbf{Bash}, with repeatable changes, peer review, and runbooks aligned with compliance and organizational standards.}
+            \resumeItem{Operate AWS foundations for the platform: \textbf{VPC} networking, \textbf{IAM} and access patterns, load balancing and \textbf{Route 53} DNS patterns, \textbf{security groups}, and encrypted data paths; integrate with managed data services such as \textbf{Amazon RDS/Aurora} and \textbf{S3} where applicable to the OA stack.}
+            \resumeItem{\textbf{On-call and incident leadership}: proactive monitoring (\textbf{Prometheus}, \textbf{Grafana}, \textbf{CloudWatch}, \textbf{Alertmanager}, \textbf{Synthetic Monitoring}), rapid triage, coordination with developers and stakeholders, and follow-ups to reduce recurrence.}
+            \resumeItem{\textbf{Reliability engineering}: actionable, customer-impacting signals; support SLO-oriented monitoring where the product defines SLIs (alongside agreed SLAs where required).}
+            \resumeItem{\textbf{AI/ML platform}: provisioned and operate the agentic infrastructure on AWS — \textbf{Amazon Bedrock} models, \textbf{Knowledge Bases} (RAG), and the runtime environment hosting AI agents and \textbf{MCP servers}; self-hosted \textbf{LangSmith} for end-to-end agent tracing and observability.}
+            \resumeItem{\textbf{Cost and capacity}: right-sizing, workload consolidation, and migration initiatives to optimize cloud spend without compromising availability.}
+            \resumeItem{\textbf{Documentation}: procedures, incidents, and automation written for handoff, auditability, and developer-friendly operational guidance.}
         \resumeItemListEnd
 
     \resumeSubheading
       {PricewaterhouseCoopers (PwC)}{Dhaka, Bangladesh}
       {Senior Consultant (Infrastructure and DevOps)}{June 2022 \textbf{--} June 2024, Full-time}
         \resumeItemListStart
-            \resumeItem{Provide cloud technical expertise, including strategic design and architectural mentorship, assessments, and proofs of concept, to support the overall sales lifecycle and consulting engagements.}
-            \resumeItem{Evaluate current cloud environments and propose additional technologies and solutions to maximize cloud benefits and resource utilization.}
-            \resumeItem{Design, build, and manage scalable cloud infrastructure (primarily Azure, AWS, and OCI) for multiple environments.}
-            \resumeItem{Design and implement infrastructure and operating environments for container-based microservices (e.g., Docker, Kubernetes) that meet agreed-upon high availability, performance, and security requirements.}
-            \resumeItem{Design and implement various tools (e.g., Azure DevOps, GitHub Actions) with DevOps/DataOps pipeline automation to enable Continuous Integration (CI) and Continuous Deployment (CD).}
-            \resumeItem{Architect, build, and implement Infrastructure as Code (e.g., Terraform) scripts for version-controlled infrastructure provisioning and management.}
-            \resumeItem{Perform root cause analysis and troubleshooting to mitigate service disruptions and improve day-to-day operations' accuracy and performance.}
-            \resumeItem{Identify areas for system improvement and implement enhancements to reduce error impact and automate repetitive tasks.}         
+            \resumeItem{Delivered cloud infrastructure and DevOps consulting: assessments, architecture guidance, and proofs of concept across the engagement lifecycle.}
+            \resumeItem{Designed, built, and operated scalable infrastructure on \textbf{AWS}, \textbf{Azure}, and \textbf{OCI} with \textbf{Terraform} IaC; met high availability, performance, and security requirements for client environments.}
+            \resumeItem{Implemented container-based microservices platforms using \textbf{Docker} and \textbf{Kubernetes} (including \textbf{AKS}-class delivery) with CI/CD via \textbf{Azure DevOps} and \textbf{GitHub Actions}.}
+            \resumeItem{Performed root cause analysis and incident mitigation; automated repetitive work and improved operational accuracy.}
         \resumeItemListEnd
 
     \resumeSubheadingUIL
@@ -188,119 +149,44 @@
       {Senior System Engineer}{Dec 2019 \textbf{--} May 2022, Full-time}
       {Network Operations Center Engineer}{Dec 2015 \textbf{--} Dec 2019, Full-time}
         \resumeItemListStart
-            \resumeItem{Designed, deployed, and managed IT infrastructure components, including servers and networks.}
-            \resumeItem{Conducted troubleshooting, resolved technical issues, and ensured system reliability and uptime.}
-            \resumeItem{Collaborated with cross-functional teams to plan and execute technology upgrades, optimizing both performance and security.}
-            \resumeItem{Monitored and maintained network performance, promptly resolving incidents and ensuring uninterrupted operations.}
+            \resumeItem{Built and ran on-premises infrastructure and NOC operations: deployment, monitoring, incident response, upgrades, and security collaboration; foundation for later cloud-scale production discipline.}
         \resumeItemListEnd
-    
+
   \resumeSubHeadingListEnd
 
-
 %----------- SKILLS -----------
-
 \section{Key Skills}
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Disciplines:}{ Agile, DevOps, Infrastructure Engineering, Site Reliability Engineering} \\ \vspace{3pt}
+        \textbf{Disciplines:}{ Agile, DevOps, Infrastructure Engineering, Site Reliability Engineering, GitOps} \\ \vspace{3pt}
         \textbf{Languages:}{ Bash/Shell, Python, YAML} \\ \vspace{3pt}
-        \textbf{Cloud Platforms:}{ Amazon Web Services, Azure, Oracle Cloud Infrastructure} \\ \vspace{3pt}
-        \textbf{Containers and Orchestration:}{ Docker, Kubernetes/EKS/AKS, Openshift } \\ \vspace{3pt}
-        \textbf{Infrastructure as Code:}{ Terraform, Helm, Kustomize} \\ \vspace{3pt}
-        \textbf{CI/CD:}{ Gitlab, GitHub Actions, Azure DevOps, AWS CodeBuild} \\ \vspace{3pt}
-        \textbf{Data:}{ PostgresSQL, MySQL, Aurora/RDS, Snowflake} \\ \vspace{3pt}   
-        \textbf{Observability:}{ Prometheus, Grafana, CloudWatch, Alertmanager, Bigpanda} \\ \vspace{3pt}
+        \textbf{Cloud (AWS focus):}{ Amazon Web Services; Azure; Oracle Cloud Infrastructure} \\ \vspace{3pt}
+        \textbf{AI/ML \& Agents:}{ Amazon Bedrock (models, Knowledge Bases, RAG), MCP servers, LangSmith (self-hosted)} \\ \vspace{3pt}
+        \textbf{Containers:}{ Docker, Kubernetes (EKS, AKS), OpenShift} \\ \vspace{3pt}
+        \textbf{Infrastructure as Code:}{ Terraform, Helm, Kustomize, Packer} \\ \vspace{3pt}
+        \textbf{CI/CD:}{ GitLab CI/CD, GitHub Actions, Azure DevOps, AWS CodeBuild} \\ \vspace{3pt}
+        \textbf{Observability:}{ Prometheus, Grafana, CloudWatch, Alertmanager, Synthetic Monitoring} \\ \vspace{3pt}
     }}
   \resumeSubHeadingListEnd
 
-
-%----------- PROJECTS -----------
-
-% \section{Projects}
-%     \vspace{3pt}
-%     \resumeSubHeadingListStart
-      
-%       \resumeProjectHeading
-%         {\textbf{Bangla translation of "What happens when" repository} $|$ \emph{\href{https://github.com/faysalmehedi/what-happens-when_BN}{\color{blue}GitHub}}}{}
-%           \resumeItemListStart
-%             \resumeItem{Bangla Translation of this repository is an attempt to answer the age-old interview question "What happens when you type google.com into your browser's address box and press enter?"}
-%           \resumeItemListEnd
-           
-%       \resumeProjectHeading
-%         {\textbf{POC on overlay communication using Vxlan OVS Docker} $|$ \emph{\href{https://github.com/faysalmehedi/vxlan-ovs-docker-lab}{\color{blue}GitHub}}}{}
-%           \resumeItemListStart
-%             \resumeItem{This hands-on POC is an overview of container/pod communication between multi-node or multi-container daemon under the hood using Open vSwitch, docker and VXLAN technology.}
-%           \resumeItemListEnd
-      
-%     \resumeSubHeadingListEnd
-
 %----------- EDUCATION -----------
-
 \section{Education}
   \vspace{3pt}
   \resumeSubHeadingListStart
-  
+
     \resumeSubheading
       {Primeasia University}{Dhaka, Bangladesh}
       {B.Sc. in Electrical and Electronics Engineering}{Sep 2014}
-    
+
   \resumeSubHeadingListEnd
-
-%----------- RELEVANT COURSEWORK -----------
-
-% \section{Relevant Coursework}
-  % \vspace{2pt}
-  % \resumeSubHeadingListStart
-    % \small{\item{
-        % \textbf{Major coursework:}{ Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering, Pattern Recognition, Introduction to Digital Signal Processing, Introduction to Digital Communications, Introduction to Database Systems, Introduction to Image Processing, Machine Vision} \\ \vspace{3pt}
-        
-        % \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Fundamentals of Software Engineering}
-    % }}
-  % \resumeSubHeadingListEnd
-
-
 
 %----------- CERTIFICATES -----------
 \section{Certificates}
   \resumeSubHeadingListStart
     \resumeOrganizationHeading
-      {AZ-104: Microsoft Azure Administrator}{Expires on: September, 2025}{}
+      {AZ-104: Microsoft Azure Administrator}{Expires on: September, 2026}{}
 
   \resumeSubHeadingListEnd
 
-
-
-%----------- ORGANIZATIONS -----------
-
-% \section{Organizations}
-%   \resumeSubHeadingListStart
-    
-%     \resumeOrganizationHeading
-%       {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{}
-    
-%   \resumeSubHeadingListEnd
-
-
-
-%----------- HOBBIES -----------
-
-% \section{Hobbies}
-  % \resumeSubHeadingListStart
-    % \small{\item{Basketball, Swimming, Fitness, Eight-ball, Horology}}
-  % \resumeSubHeadingListEnd
-
-
-
-%----------- REFERENCES -----------
-
-% \section{References}
-  % \vspace{2pt}
-  % \resumeSubHeadingListStart
-    % \item{References available upon request.}
-  % \resumeSubHeadingListEnd
-
-
-
-%-------------------------------------------
 \end{document}
